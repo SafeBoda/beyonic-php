@@ -20,6 +20,13 @@ class Beyonic {
     self::$apiKey = $newApiKey;
   }
 
+    /**
+     * Set customer API url
+     * @param $url
+     */
+  public static function setApiUrl($url) {
+    self::$apiURL = $url;
+  }
   /*
     setAPIVersion - Sets the API Version for this client / developer.
   */
